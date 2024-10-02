@@ -1,0 +1,14 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the quiz container */
+.container {
+    max-width: 600px;
+}
+
+/* Additional custom styles for buttons */
+#quiz-container .btn {
+    text-align: left;
+}

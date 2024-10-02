@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Quiz</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-12">
+                <!-- Quiz Controls -->
+                <div class="mb-4 text-center">
+                    <input type="number" id="quiz-size-input" class="form-control mb-2" placeholder="Number of questions">
+                    <button id="start-btn" class="btn btn-primary btn-block">Start Quiz</button>
+                </div>
+                <!-- Quiz Container -->
+                <div id="quiz-container" class="card p-3 hide">
+                    <h2 id="question" class="card-title">Question will go here</h2>
+                    <div id="answer-buttons" class="btn-group-vertical w-100"></div>
+                    <button id="next-btn" class="btn btn-secondary mt-3 hide">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Dependencies (Optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
